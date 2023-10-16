@@ -1,0 +1,22 @@
+{
+  "name": "api-instagram-publication-scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^3.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "instagram-private-api": "^1.45.3",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
